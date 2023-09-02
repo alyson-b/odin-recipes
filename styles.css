@@ -1,0 +1,41 @@
+/* CSS */
+
+*{
+    background-color: rgb(255, 252, 247);
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: rgb(121, 5, 28);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.image {
+    word-spacing: 40px;
+    border: auto ;
+}
+
+.header{
+    text-align: justify;
+}
+
+.links,
+.ingredients {
+    display: inline;
+    list-style-type: none;
+}
+
+.links {
+   justify-content: space-between;
+}
+
+.steps {
+    display: inline;
+    list-style-type: none;
+}
+
+.footer{
+    text-align: justify;
+}
