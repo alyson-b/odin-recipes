@@ -7,35 +7,55 @@
 }
 
 h1{
-    color: rgb(121, 5, 28);
     font-size: 40px;
+}
+
+h1,
+.link p {
+    color: rgb(121, 5, 28);
     font-weight: bold;
 }
 
-.image {
-    word-spacing: 40px;
-    border: auto ;
+#navigation {
+    display: inline-flex;
 }
 
-.header{
+.link p {
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.link {
+    padding: 10px;
+}
+
+div.link:hover p {
+    font-size: 115%;
+}
+
+#content {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.header,
+.recipe-list,
+.footer,
+.text {
     text-align: justify;
 }
 
 .links,
-.ingredients {
-    display: inline;
+.recipe-list {
     list-style-type: none;
 }
 
-.links {
-   justify-content: space-between;
-}
+/* .steps {
+    list-style-position: inside;
+    position:relative;
+    margin-left: -20px;
+} */
 
-.steps {
-    display: inline;
-    list-style-type: none;
-}
-
-.footer{
-    text-align: justify;
+.footer {
+    text-align: right;
 }
